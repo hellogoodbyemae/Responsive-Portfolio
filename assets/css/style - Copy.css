@@ -4,8 +4,6 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/concrete_seamless.png");
-    min-width: 960px;
-    margin: auot;
   }
   
   * {
@@ -15,8 +13,9 @@ body {
   /* general */
   
   .container {
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
     clear: both;
   }
   
@@ -217,31 +216,15 @@ body {
     border: 0 none;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    body {
-        min-width: 767px;
-    }
+  @media screen and (max-width: 768px) {
     .container {
-        width: 767px;
-        margin: auto;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
     }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        min-width: 479px;
-    }
-    .container {
-        width: 479px;
-        margin: auto;
-    }
-}
-
-@media only screen and (max-width: 479px) {
-    body {
-        min-width: 320px;
-    }
-    .container {
-        width: 320px;
-    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    
   }
