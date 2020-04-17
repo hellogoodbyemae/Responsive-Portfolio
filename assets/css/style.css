@@ -66,7 +66,7 @@ body {
   
   #logo {
     float: left;
-    width: 250px;
+    width: 300px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -141,13 +141,13 @@ body {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 40px 25px;
     overflow: auto;
   }
   
-  .work:nth-child(even) {
+  /* .work:nth-child(even) {
     margin-right: 40px;
-  }
+  } */
   
   .work img {
     width: 100%;
@@ -231,13 +231,17 @@ body {
       position: relative;
       float: left;
       width: 225px;
-      margin: 15px 20px;
+      margin: 20px;
       overflow: auto;
     }
 
     .work h3 {
       padding: 10px;
       font-size: 18px;
+    }
+
+    .work:nth-child(even) {
+      margin-right: auto;
     }
 }
 
@@ -255,8 +259,12 @@ body {
       position: relative;
       float: left;
       width: 175px;
-      margin: 5px 10px;
+      margin: 10px;
       overflow: auto;
+    }
+
+    .work:nth-child(even) {
+      margin-right: 10px;
     }
 
     .work h3 {
@@ -274,11 +282,15 @@ body {
         width: 320px;
     }
 
+    .work:nth-child(even) {
+      margin-right: 10px;
+    }
+
     .work {
       position: relative;
       float: left;
       width: 175px;
-      margin: 5px 10px;
+      margin: 10px;
       overflow: auto;
     }
 
