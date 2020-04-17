@@ -221,9 +221,23 @@ body {
     body {
         min-width: 767px;
     }
+
     .container {
         width: 767px;
         margin: auto;
+    }
+
+    .work {
+      position: relative;
+      float: left;
+      width: 225px;
+      margin: 15px 20px;
+      overflow: auto;
+    }
+
+    .work h3 {
+      padding: 10px;
+      font-size: 18px;
     }
 }
 
@@ -231,9 +245,23 @@ body {
     body {
         min-width: 479px;
     }
+
     .container {
         width: 479px;
         margin: auto;
+    }
+
+    .work {
+      position: relative;
+      float: left;
+      width: 175px;
+      margin: 5px 10px;
+      overflow: auto;
+    }
+
+    .work h3 {
+      padding: 5px;
+      font-size: 15px; 
     }
 }
 
@@ -241,7 +269,21 @@ body {
     body {
         min-width: 320px;
     }
+
     .container {
         width: 320px;
+    }
+
+    .work {
+      position: relative;
+      float: left;
+      width: 175px;
+      margin: 5px 10px;
+      overflow: auto;
+    }
+
+    .work h3 {
+      padding: 5px;
+      font-size: 15px;
     }
   }
