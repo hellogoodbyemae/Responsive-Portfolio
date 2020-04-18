@@ -227,6 +227,18 @@ body {
         margin: auto;
     }
 
+    .logo {
+      display: -webkit-box;
+      -webkit-box-align: center;
+      align-items: center;
+    }
+
+    .nav {
+      display: -webkit-box;
+      -webkit-box-align: center;
+      align-items: center;
+    }
+
     .work {
       position: relative;
       float: left;
@@ -253,6 +265,18 @@ body {
     .container {
         width: 479px;
         margin: auto;
+    }
+
+    .logo {
+      display: -webkit-box;
+      -webkit-box-align: center;
+      align-items: center;
+    }
+
+    .nav {
+      display: -webkit-box;
+      -webkit-box-align: center;
+      align-items: center;
     }
 
     .work {
